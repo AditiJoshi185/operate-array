@@ -45,3 +45,22 @@ var resultArray = operator.trim([1, 2, 3, 4, 4, 5], 2, 4);
 console.log(resultArray);
 // [1, 2, 5];
 ```
+
+## Run Tests
+
+```bash
+$ npm install
+```
+```bash
+$ npm run test
+```
+
+* Test 1 : Delete all occurences of an element.
+* Test 2 : Delete one occurences of an element.
+* Test 3 : Delete all occurences of an element in an empty array.
+* Test 4 : Delete one occurences of an element in an empty array.
+* Test 5 : Delete an element not present in array.
+* Test 6 : Trim/Remove elements the array with specified index.
+* Test 7 : Trim/Remove elements the array with specified index in an empty array.
+* Test 8 : Trim/Remove elements the array with specified index in an empty array.
+* Test 9 : Trim/Remove elements the array with specified index in an empty array.

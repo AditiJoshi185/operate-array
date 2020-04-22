@@ -1,19 +1,19 @@
 const deleteElement = require('./../src/delete').deleteElement;
 const trim = require('./../src/delete').trim;
 
-test('Test 1 : Delete all occurences of a element ', () => {
+test('Test 1 : Delete all occurences of an element ', () => {
     expect(deleteElement([1,8,3,4,5,4], 4)).toEqual([1,8,3,5]);
 });
 
-test('Test 2 : Delete 1 occurences of a element ', () => {
+test('Test 2 : Delete one occurences of an element ', () => {
     expect(deleteElement([1,8,3,4,5,4], 4 , 1)).toEqual([1,8,3,5,4]);
 });
 
-test('Test 3 : Delete all occurences of a element in a empty array', () => {
+test('Test 3 : Delete all occurences of an element in an empty array', () => {
     expect(deleteElement([], 4 , 1)).toEqual([]);
 });
 
-test('Test 4 : Delete 1 occurences of a element in a empty array', () => {
+test('Test 4 : Delete one occurences of an element in an empty array', () => {
     expect(deleteElement([], 4 )).toEqual([]);
 });
 
