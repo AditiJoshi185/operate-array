@@ -1,0 +1,33 @@
+{
+  "name": "operate-array",
+  "version": "1.0.0",
+  "description": "Performs operation on arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AditiJoshi185/operate-array"
+  },
+  "keywords": [
+    "array",
+    "delete",
+    "trim",
+    "operate",
+    "remove",
+    "element",
+    "key",
+    "item",
+    "integer",
+    "string",
+    "start",
+    "end",
+    "index"
+  ],
+  "author": "Aditi Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
