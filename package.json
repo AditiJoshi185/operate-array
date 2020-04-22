@@ -1,6 +1,6 @@
 {
   "name": "operate-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Performs operation on arrays",
   "main": "index.js",
   "scripts": {
